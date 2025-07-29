@@ -21,7 +21,7 @@ import { ref } from 'vue';
     <div v-if="error">{{ error }}</div>
     <div v-else>エラーはありません</div>
 
-    <div v-if="flag.value === 0">flag == {{ flag }}</div>
+    <div v-if="flag.value === 0">flag == {{ flag.value }}</div>
     <div v-else-if="flag.value === 1">flag == {{ flag }}</div>
     <div v-else>flag == {{ flag }}</div>
 
